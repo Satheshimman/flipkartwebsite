@@ -1,0 +1,136 @@
+.text{
+    color:"black"!important;
+}
+
+.btn{
+    border:none;
+    outline: none;
+}
+
+.iconshadow{
+    background-color: white;
+    padding:5px 5px;
+    box-shadow: 10px 10px 10px white;
+}
+
+.slick-next:before{
+    color:black;
+}
+.slick-prev:before{
+    color:black;
+}
+.slick-next{
+//    background-color:#80808091;
+background-color: white;
+
+   height: 80px;
+   width: 50px;
+   position:absolute;
+   top:52%;
+   right: -10px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   z-index: 3
+}
+
+.slick-prev{
+    // background-color:#80808091;
+    background-color: white;
+    height: 80px;
+    width: 50px;
+    position:absolute;
+    top:52%;
+    left: -10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   z-index: 3;
+   
+ 
+ }
+
+ 
+ .navli li{
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 19px;
+    font-weight: 600;
+ }
+
+
+
+
+li{
+    margin: 5px 0px;
+}
+
+
+@media (max-width: 768px) {
+    .slick-next:before{
+        color:black;
+        display: none;
+    }
+    .slick-prev:before{
+        color:black;
+        display: none;
+    }
+    .slick-next{
+    //    background-color:#80808091;
+    background-color: white;
+
+       height: 80px;
+       width: 50px;
+       position:absolute;
+       top:52%;
+       right: -10px;
+       display:none;
+       justify-content: center;
+       align-items: center;
+       color: black;
+       z-index: 3
+    }
+    
+    .slick-prev{
+        // background-color:#80808091;
+        background-color: white;
+        height: 80px;
+        width: 50px;
+        position:absolute;
+        top:52%;
+        left: -10px;
+        display:none;
+        justify-content: center;
+        align-items: center;
+        color: black;
+       z-index: 3;
+       
+     
+     }
+}
+
+.footerborder{
+
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+.show{
+    display:block;
+}
+.footershow{
+    border-bottom:1px solid gray;
+    padding-bottom: 20px;
+}
+@media (max-width: 600px) {
+    .footerborder{
+
+        border-right:none;
+        
+    } 
+
+    .show{
+        display: none;
+    }
+  }
