@@ -194,7 +194,7 @@ export const Navbar = () => {
                       component="div"
                       sx={{ flexGrow: 1, fontSize: "20px", marginRight: "6px" }}
                     >
-                      Flipkartt
+                      Flipkart
                     </Typography>
                     <Typography variant="b" sx={{ fontSize: "12px" }}>
                       Explore
